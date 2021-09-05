@@ -1,0 +1,1085 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Bom dia
+    - Bonjour
+    - Good Morning
+    - Good morning
+    - Good mourning
+    - Guten Morgen
+    - HELLO
+    - HEY
+    - HEllo
+    - HI
+    - HI cagiv
+    - Hallo
+    - Hei
+    - Hellllooooooo
+    - Hello
+    - Hello Bot
+    - Hello cagiv
+    - Hello cagiv
+    - Hello cagiv
+    - Hello!
+    - Hey
+    - Hey cagiv
+    - Hey bot
+    - Heya
+    - Heylo
+    - Hi
+    - Hi cagiv
+    - Hi cagiv!
+    - Hi bot
+    - Hi man
+    - Hi cagiv
+    - Hi cagiv
+    - Hi cagiv..
+    - Hi there
+    - Hi!
+    - Hi'
+    - Hi,
+    - Hi, bot
+    - Hieee
+    - Hieeeeeeeeeeeee
+    - Hola
+    - I said, helllllloooooO!!!!
+    - Well hello there ;)
+    - What is up?
+    - Whats up
+    - Whats up my bot
+    - Whats up?
+    - ayyyy whaddup
+    - bonjour
+    - ey boss
+    - good evening
+    - good moring
+    - good morning
+    - greet
+    - greetings
+    - hai
+    - hallo
+    - hallo cagiv
+    - halloo
+    - halloooo
+    - halo
+    - halo cagiv
+    - heeey
+    - heelio
+    - hell9o
+    - hellio
+    - hello
+    - hello cagiv
+    - hello everybody
+    - hello friend
+    - hello hi
+    - hello is anybody there
+    - hello it is me again
+    - hello robot
+    - hello cagiv
+    - hello sweatheart
+    - hello sweet boy
+    - hello there
+    - hello world
+    - hello, my name is [Charles Pfeffer](name)
+    - hello?
+    - hello]
+    - hellooo
+    - helloooo
+    - helo
+    - hey
+    - hey bot
+    - hey bot!
+    - hey dude
+    - hey hey
+    - hey let's talk
+    - hey cagiv
+    - hey cagiv
+    - hey ther
+    - hey there
+    - hey there boy
+    - hey there..
+    - hey, let's talk
+    - hey, cagiv!
+    - heya
+    - heyho
+    - heyo
+    - hhola
+    - hi
+    - hi !
+    - hi Mister
+    - hi again
+    - hi can you speak ?
+    - hi folks
+    - hi friend
+    - hi friends
+    - hi hi
+    - hi i'm [Sandra Hernandez](name)
+    - hi im [Amanda Anderson](name)
+    - hi mrs cagiv
+    - hi pal!
+    - hi cagiv
+    - hi there
+    - hi there it's me
+    - hi!
+    - hi.........................................................
+    - hi?
+    - hieee
+    - hii
+    - hiihihi
+    - hiii
+    - hlo
+    - hola
+    - howdy
+    - i am [Karen Mease](name)
+    - jojojo
+    - jop
+    - konichiwa
+    - merhaba
+    - ola cagiv
+    - cagiv hello
+    - salut
+    - sup
+    - wasssup
+    - wasssup!
+    - what up
+    - whats popping
+    - whats up
+    - yo
+    - yoo
+    - ssup?
+    - helleo
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Bye bye
+    - adios
+    - adios?
+    - bye
+    - bye .
+    - bye :P
+    - bye bot
+    - bye bye
+    - bye bye bot
+    - bye for now
+    - bye udo
+    - bye was nice talking to you
+    - bye!
+    - byee
+    - catch you later
+    - ciao
+    - cya
+    - farewell
+    - good bye
+    - good bye cagiv bot!
+    - good night
+    - goodbye
+    - goodbye.
+    - goodnight
+    - gotta go
+    - k byyye #slay
+    - ok Bye
+    - ok bye
+    - ok, bye
+    - ok.bye
+    - see u later
+    - see ya
+    - see you
+    - see you . bye
+    - take care
+    - then bye
+    - tlak to you later
+    - toodle-oo
+    - Exit
+    - Close this talk
+    - byr
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Accept
+    - Awesome!
+    - Good
+    - Great
+    - I accept
+    - I accept.
+    - I agree
+    - I am using it
+    - I changed my mind. I want to accept it
+    - I do
+    - I get it
+    - I guess so
+    - I have used it in the past
+    - I will
+    - I'd absolutely love that
+    - I'm sure I will!
+    - I'm using it
+    - Nice
+    - OK
+    - Ofcourse
+    - Oh yes
+    - Oh, ok
+    - Ok
+    - Ok let's start
+    - Ok.
+    - Okay
+    - Okay!
+    - PLEASE
+    - SURE
+    - Sure
+    - Sweet
+    - That would be great
+    - YES
+    - YUP
+    - Yea
+    - Yeah
+    - Yeah sure
+    - Yep
+    - Yep that's fine
+    - Yep!
+    - Yepp
+    - Yes
+    - Yes I do
+    - Yes please
+    - Yes please!
+    - Yes, I accept
+    - Yes.
+    - Yup
+    - a little
+    - absolutely
+    - accept
+    - accepted
+    - agreed
+    - ah ok
+    - alright
+    - alright, cool
+    - amayzing
+    - amazing!
+    - awesome
+    - awesome!
+    - confirm
+    - cool story bro
+    - definitely yes without a doubt
+    - done
+    - fair enough
+    - fcourse
+    - fine
+    - fuck yeah!
+    - go
+    - go ahead
+    - go for it
+    - going super well
+    - good.
+    - great
+    - great lets do that
+    - great!
+    - hell yeah
+    - hell yes
+    - hm, i'd like that
+    - how nice!
+    - i accept
+    - i agree
+    - i am!
+    - i want that
+    - i will!
+    - it is ok
+    - its okay
+    - ja
+    - ja cool
+    - ja thats great
+    - jezz
+    - jo
+    - k
+    - kk
+    - lets do it
+    - lets do this
+    - not bad
+    - of course
+    - ofcoure i do
+    - ofcourse
+    - oh awesome!
+    - oh cool
+    - oh good !!
+    - oh super
+    - ok
+    - ok cool
+    - ok fine
+    - ok friend
+    - ok good
+    - ok great
+    - ok i accept
+    - ok cagiv
+    - ok, I behave now
+    - ok, I understood
+    - ok, cagiv
+    - ok...
+    - okay
+    - okay cool
+    - okay sure
+    - okay..
+    - oki doki
+    - okie
+    - ook
+    - oui
+    - perfect
+    - please
+    - si
+    - sort of
+    - sure
+    - sure thing
+    - sure!
+    - that is cool
+    - that ok
+    - that sounds fine
+    - that's great
+    - thats fine
+    - thats good
+    - thats great
+    - top
+    - uh-huh
+    - very much
+    - well yes
+    - y
+    - ya
+    - ya cool
+    - ya go for it
+    - ya i want
+    - ya please
+    - ya thats cool
+    - yaah
+    - yap
+    - yaps
+    - yas
+    - yay
+    - ye
+    - ye splease
+    - yea
+    - yeah
+    - yeah do that
+    - yeah sure
+    - yeah'=
+    - yeah, why not
+    - yeeeeezzzzz
+    - yeeees
+    - yep
+    - yep i want that
+    - yep if i have to
+    - yep please
+    - yep that's nice
+    - yep thats cool
+    - yep, will do thank you
+    - yep. :/
+    - yes
+    - yes ...
+    - yes I do
+    - yes accept please
+    - yes baby
+    - yes cool
+    - yes give me information
+    - yes go ahead
+    - yes go for it
+    - yes great
+    - yes i accept
+    - yes i agree
+    - yes i have built a bot before
+    - yes i have!
+    - yes it is
+    - yes it was okay
+    - yes of course
+    - yes pleae
+    - yes please
+    - yes please!
+    - yes pls
+    - yes sirfr
+    - yes that's great
+    - yes that's what i want
+    - yes you can
+    - yes'
+    - yes, I'd love to
+    - yes, cool
+    - yes, give me information, please
+    - yes,i am
+    - yes.
+    - yesh
+    - yess
+    - yessoo
+    - yesss
+    - yesssss
+    - yesyestyes
+    - yesyesyes
+    - yez
+    - yop
+    - you asked me a yes or no question, which i answered with yes
+    - you got me, I accept, if you want me to
+    - yres
+    - ys
+    - yup
+    - yyeeeh
+    - Okay cool
+    - ok..
+    - considering
+    - More a less
+    - cool beans
+    - sounds good!
+    - really
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - I don't want to
+    - I don't want to give it to you
+    - I don't want to say
+    - I dont want to tell
+    - I'm not giving you my email address
+    - I'm not going to give it to you
+    - NEIN
+    - NO
+    - NO DON"T WANT THIS!
+    - Nah
+    - Neither
+    - Never
+    - Nevermind
+    - No
+    - No thank you
+    - No, not really.
+    - No, thank you
+    - No.
+    - Nopes
+    - Not really
+    - absolutely not
+    - decline
+    - definitely not
+    - deny
+    - i decline
+    - i don not like this
+    - i don't think so
+    - i don't want either of those
+    - i don't want to
+    - i don't want to give you my email
+    - i dont want to
+    - i dont want to accept :P lol
+    - i guess it means - no
+    - i'm afraid not
+    - i'm not sure
+    - it is going pretty badly
+    - it sucks
+    - it sux
+    - n
+    - na
+    - nah
+    - nah I'm good
+    - nah not for me
+    - nah, first time
+    - nah, i'm good
+    - nehi
+    - nein
+    - neither
+    - never
+    - never mind
+    - no
+    - no :(
+    - no I dont want
+    - no I haven't decided yet if I want to sign up
+    - no and no again
+    - no bots at all
+    - no go
+    - no i can't
+    - no i don't accept
+    - no i dont want to
+    - no i dont want to accept :P lol
+    - no i won't
+    - no ma'am
+    - no sir
+    - no sorry
+    - no thank s
+    - no thank you
+    - no thanks
+    - no way
+    - no you did it wrong
+    - no!!!!
+    - no, i hate it
+    - no, my frst time
+    - no, thank you
+    - no, thanks
+    - no, thankyou
+    - no. u r idiot
+    - non
+    - noooooooooo
+    - noooooooooooooooooooooooooooooooooooooooo
+    - nop
+    - nope
+    - nope!
+    - nope. i am good
+    - not going well at all
+    - not really
+    - not right now
+    - not yet
+    - nö
+    - sorry not right now
+    - still dont want to tell
+    - thanks but no thanks
+    - this sucks
+    - very bad
+    - I do not need help installing
+    - I don't wanna tell the name of my company
+    - no stop
+    - stop it, i do not care!!!
+    - none of them
+    - I don't agree
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - Cool
+    - cool
+    - cool :)
+    - cool!
+    - coolio
+    - :)
+    - :D
+    - HAHA
+    - I am happy
+    - LOL
+    - Lol
+    - Lol thats funny
+    - Looks nice
+    - WOW
+    - Wow
+    - You are great
+    - You're cute.
+    - You're nice.
+    - You're really cool
+    - hAHAHA
+    - ha ha
+    - haha
+    - hahah
+    - hahaha
+    - happy
+    - i am feeling happy
+    - i am happy
+    - i am happy today
+    - i am very happy with your response
+    - i love you
+    - it's pretty cool
+    - lol
+    - love you
+    - okay cagivbot, you're cool
+    - cagiv is awesome
+    - such a great demo
+    - that is funny
+    - that was a great interaction
+    - thats funny
+    - today was a nice day
+    - wow
+    - you are a badass bot!
+    - you are awesome
+    - you are cool
+    - you are cool man
+    - you are doin great
+    - you are funny
+    - you are great
+    - you are my new bestfriend
+    - you seem pretty cool :D
+    - I like you
+    - I love you
+    - you are realy intelligent
+    - I like cagiv
+    - hèhè
+    - like u
+    - you are so smart
+    - That's awesome.
+    - Got it
+    - you good
+    - Great information
+    - I mean to say that I liked the explanation
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: telljoke
+  examples: |
+    - Can you tell a joke?
+    - Can you tell me a joke.
+    - Come up with a joke you think I'll find funny.
+    - Could you please share a joke with me.
+    - Could you tell me a joke.
+    - Do you have any jokes?
+    - Do you know any jokes?
+    - Entertain me with a joke.
+    - Give me a funny joke.
+    - Give me a joke.
+    - Give me some comic relief.
+    - I need a good joke.
+    - I want to hear something funny.
+    - Know any jokes?
+    - Let's hear a joke from you.
+    - Make me laugh.
+    - Please tell me a joke.
+    - Say something funny.
+    - Share a joke with me!
+    - Tell joke.
+    - Tell me something funny.
+    - Tell me something humorous!
+    - Tell me something that you think will make me laugh.
+    - Tell me the best joke you know.
+    - What's a good joke?
+    - Will you tell me a joke.
+    - Would you share a joke with me.
+    - Would you tell me a joke
+    - give me a good joke
+    - make me laugh with a bad joke
+    - make me laugh with a joke
+    - say a funny joke
+    - say a joke
+    - say a joke that's funny
+    - say a joke that's so bad it's funny
+    - tell me a joke
+    - tell me a short joke
+    - tell me a story joke
+    - tell me something funny, like a joke
+    - you can say a jok
+    - telljoke
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - HI, what's your name?
+    - Hello. What's your name?
+    - I want to know who you are
+    - So who are you ?
+    - Tell me more about you
+    - WHat's your name ?
+    - WHo are you ?
+    - What are you ?
+    - What is your name
+    - What is your name?
+    - What's your name
+    - What's your name?
+    - Whats your name?
+    - Who are yopu?
+    - Who are you
+    - Who are you?
+    - hey what is your name
+    - hi! what's your name?
+    - ok who are you ?
+    - tell me something about you
+    - u are?
+    - what are you called?
+    - what is your job?
+    - what is your nam
+    - what is your name
+    - what is your name?
+    - what is your nme?
+    - what your name?
+    - what's your name
+    - what's your name ?
+    - what's your name bot
+    - what's your name?
+    - whats ur name
+    - whats your name
+    - whats your name'
+    - whats your name?
+    - who ARE YO
+    - who am i speaking with
+    - who am i talking to
+    - who ar eyou
+    - who are u?
+    - who are y
+    - who are you
+    - who are you ?
+    - who are you and what do you want from me
+    - who are you?
+    - who are you??
+    - who is it?
+    - who is talking?
+    - who is this
+    - who is this bot
+    - who is this?
+    - who r u
+    - who r you
+    - who speaks?
+    - who talks?
+    - whom i talking to
+    - yes but who are you in your heart
+    - may i know your name
+    - what are you
+    - your name
+    - your real name friend
+    - could please tell me about yourself
+    - what's u name?
+
+- intent: ask_howbuilt
+  examples: |
+    - By what means were you made?
+    - By what method were you fashioned?
+    - Can you explain how you were created?
+    - Can you give me an idea as to how you were created?
+    - Can you say how you were constructed?
+    - Do you know how you were built?
+    - Do you know how you were made?
+    - How did they build you?
+    - How did they create you?
+    - How did they make you?
+    - How did you come into being?
+    - How did you come to be?
+    - How exactly were you devised?
+    - How exactly were you made?
+    - How were you built?
+    - How were you conceived?
+    - How were you constructed?
+    - How were you devised?
+    - How were you formed?
+    - How were you made into who you are?
+    - How were you made?
+    - How were you materialized?
+    - How were you set up?
+    - I want to know how you were formed
+    - I'd like to know how you were created
+    - I'd like to know how you were put together?
+    - In what manner were you built?
+    - In what manner were you constructed?
+    - In what manner were you formed?
+    - In what way were you created?
+    - In what way were you formed?
+    - In what way were you made?
+    - In what way were you shaped?
+    - In which manner were you devised?
+    - Let me know how you were made exactly
+    - Specify how you were created?
+    - Tell me how you were made?
+    - What process was used to build you?
+    - What process was used to create you?
+    - What was the process for making you?
+    - You originated through what means?
+    - how have you been built?
+    - how were you made?
+    - in what way were you made?
+    - so how were you made?
+    - what are you made of
+    - Are you built using rasa?
+    - Are u developed in rasa
+    - are you build with rasa ?
+
+- intent : ask_time
+  examples: |
+    - Can you give me the time?
+    - Can you tell me the time?
+    - Can you tell me what time it is?
+    - Can you tell the time?
+    - Could you tell me the time, please?
+    - Could you tell me the time?
+    - Could you tell me what time is it?
+    - Do you have the time?
+    - Do you know the time?
+    - Do you know what time it is?
+    - Excuse me, what time is it?
+    - Give me the time.
+    - Hi, I need the time.
+    - I need to know what time it is.
+    - Pardon me, but do you know the time?
+    - Tell me the time.
+    - Time, please!
+    - Time?
+    - What is the current time?
+    - What is the exact time?
+    - What is the hour and minute right now?
+    - What is the time?
+    - What might the time be?
+    - What time do we have?
+    - What time have we got?
+    - What time is it right now?
+    - What's the current time?
+    - What's the time right now?
+    - What's the time?
+    - Would you tell me what time it is?
+    - do you have the time?
+    - do you know the current time?
+    - tell me the current time.
+    - tell me the time it is.
+    - tell me the time.
+    - tell me what time you have.
+    - that's true. do you know what time it is?
+    - what is the current time?
+    - what is the time ?
+    - what is the time?
+    - what is time in US ?
+    - what is time is US ?
+    - what is time is USA ?
+    - what time do you have?
+    - what time is it
+    - what time is it?
+    - what time it is
+    - what's the time
+    - whats the time now
+- intent: ask_howdoing
+  examples: |
+      - Ahoy matey how are you?
+      - Are you ok?
+      - Do you feel good?
+      - Do you have a great day?
+      - HI cagiv, what are you up to?
+      - Hi cagiv! How are you?
+      - How are You?
+      - How are things?
+      - How are you
+      - How are you men?
+      - How are you today?
+      - How are you?
+      - How was your day?
+      - How you doing?
+      - How's it going
+      - How's it hanging?
+      - How's life treating you friend?
+      - How've you been?
+      - Hows it going
+      - I'm fine and you
+      - Is everything ok?
+      - What's going on?
+      - What's new?
+      - What's up
+      - What's up man
+      - and you
+      - are you alright
+      - are you happy
+      - are you having a good day
+      - are you ok
+      - are you okay
+      - h r u ?
+      - hello, how are you?
+      - hey how are you?
+      - hi how are you?
+      - hi how u doing
+      - hi cagiv, how are you?
+      - how ?
+      - how are things going
+      - how are things with you?
+      - how are u
+      - how are u?
+      - how are xou
+      - how are you
+      - how are you ?
+      - how are you doing
+      - how are you doing this morning
+      - how are you doing today my sweet friend
+      - how are you doing today?
+      - how are you doing?
+      - how are you feeling
+      - how are you today
+      - how are you'
+      - how are you?
+      - how are you????
+      - how are yuo
+      - how do you do?
+      - how have you been
+      - how is it going
+      - how is your day
+      - how is your day going
+      - how is your evening
+      - how r u
+      - how r u ?
+      - how r u>
+      - how you doing
+      - how you doing?
+      - how's it going?
+      - how's life
+      - how's life been treating you?
+      - how's your day going
+      - howareyou
+      - hw r u?
+      - is everything all right
+      - is everything okay
+      - nah, I'm good - how are you doing?
+      - okay hi how are you?
+      - wassup>
+      - what about your day
+      - what are you up to?
+      - what's good
+      - what's up
+      - what's up cagiv
+      - what's up?
+      - whatchcha doing
+      - whatchya upto ?
+      - whats goin on
+      - whats new
+      - whatsapp
+      - yow are you
+      - how are you Rasa
+      - Hey cagiv, how's it going
+      - are you cool
+
+- intent: handle_insult
+  examples: |
+      - FUCK
+      - Fuck
+      - Fuck Off
+      - Fuck off
+      - Fuck u
+      - Fuck you
+      - God you're a moron
+      - I can't believe how dumb you are
+      - I hate you
+      - Loser
+      - Stupid
+      - You are a fool.
+      - You are an idiot.
+      - You are dumb.
+      - You are shortsighted.
+      - You are unintelligent.
+      - You are unknowing.
+      - You brain is dull.
+      - You have no brains.
+      - You have no intelligence.
+      - You have no sense.
+      - You know nothing.
+      - You lack intelligence.
+      - You lack understanding.
+      - You're a dolt.
+      - You're a dunce.
+      - You're an idiot.
+      - You're foolish.
+      - Your intelligence is laughable.
+      - Your mindset is naive.
+      - a baby knows more than you
+      - are u dump?
+      - are you brain dead?
+      - asshole
+      - bitch
+      - bloody dunce
+      - but you are idiot
+      - deal with my ass, you bitch
+      - f*ck
+      - fuck
+      - fuck off
+      - fuck rasa
+      - fuck u
+      - fuck you
+      - fuck you machine learning bot
+      - fuck you cagiv
+      - fuck you!
+      - fucking stupid
+      - fucking work
+      - get lost
+      - go away
+      - go fuck yourself
+      - go to hell
+      - how can you be such an idiot?
+      - i hate you
+      - i hate your dumb face
+      - i think that you're a bullshit
+      - idiot
+      - insult you
+      - ok fuck you
+      - ok shut up
+      - shit
+      - shit bot
+      - shut up asshole
+      - so dumb
+      - so fucking dumb
+      - sucker
+      - that wasn't very funny
+      - thta was a terrible fucking joke
+      - u r a piece of junk
+      - ur a pussy
+      - what fuck
+      - yep but you are idiot
+      - you are a moron
+      - you are a stupid bot
+      - you are an idiot
+      - you are dumb
+      - you are fucking stupid
+      - you are fucking stupid guy！
+      - you are idiot
+      - you are idiotic
+      - you are so ignorant
+      - you are stupid
+      - you are unintelligent
+      - you are useless bot
+      - you asshole
+      - you idiot
+      - you idiot bot
+      - you son of a bitch
+      - you suck
+      - you're a loser lmao
+      - you're an idiot
+      - you're dumb
+      - you're not smart
+      - you're so dumb
+      - you're the most moronic person I know
+      - your mom gay
+      - you are annoying
+      - F u
+      - monkey man
+      - little ugly monkey
+      - you are ugly
+      - you are insane
+      - why are ugly
+      - why are you ugly
+      - your crazy
+      - stupid rasa
+      - damn you

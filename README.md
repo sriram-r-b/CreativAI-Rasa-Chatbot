@@ -6,7 +6,7 @@ This repo contains the server code for the chatbot . One can use a custom fronte
 ## Custom Model Creation
 Clone the Repo. <br />
 Create models directory in rasa-chatbot-docker directory. <br />
-Train the Chatbot and deploy at heroku using docker(instructions available at youtube).  <br />
+Train the Chatbot and deploy at heroku or any other platform using docker(instructions available at youtube).  <br />
 Once online we can communicate through rest API or a frontend(few corrections to startservices.sh to be made).<br />
 
 ## Usage without installation
